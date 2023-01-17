@@ -12,6 +12,9 @@ class Project {
   @Column()
   urlGithub: URL;
 
+  @Column({nullable: true})
+  urlVercel: URL;
+
   @Column()
   description: string;
 }
